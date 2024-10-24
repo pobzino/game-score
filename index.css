@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-scoreboard {
+    display: flex;
+
+}
+
+.add-points {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+#score-container {
+    background-color: #1B244A;
+    height: 75%;
+    width: 100%;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+.points {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    font-size: 18px;
+    background-color: #1B244A;
+}
+
+.a-point {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid #9AABD8;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.competition-score {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#new-button {
+    background-color: #f94f6d;
+    color: white;
+}
+
+.new-game {
+    display: flex;
+    align-items: center;
+}

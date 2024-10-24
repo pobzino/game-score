@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+</head>
+
+<body onload="winner()">
+    <div id="score-container">
+        <div class="competition-score">
+            <div id="home-scoreboard">
+                <h3>HOME</h3>
+                <div class="points" id="home-points">
+                    <h4 id="home-score">0</h4>
+                </div>
+                <div class="add-points" id="home-add-points">
+                    <button id="home-plus-one" class="a-point" onclick="addOneHome()">+1</h5>
+                        <button id="home-plus-two" class="a-point" onclick="addTwoHome()">+2</h5>
+                            <button id="home-plus-three" class="a-point" onclick="addThreeHome()">+3</h5>
+                </div>
+            </div>
+            <div class="new-game">
+                <button class="a-point" id="new-button" onclick="newGame()">NEW GAME</button>
+            </div>
+            <div id="guest-scoreboard">
+                <h3>GUEST</h3>
+                <div class="points" id="guest-points">
+                    <h4 id="guest-score">0</h4>
+                </div>
+                <div class="add-points" id="guest-add-points">
+                    <button id="guest-plus-one" class="a-point" onclick="addOneGuest()">+1</h5>
+                        <button id="guest-plus-two" class="a-point" onclick="addTwoGuest()">+2</h5>
+                            <button id="guest-plus-three" class="a-point" onclick="addThreeGuest()">+3</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
